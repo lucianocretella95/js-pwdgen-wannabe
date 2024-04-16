@@ -5,5 +5,5 @@ let textsurname = prompt("surname");
 console.log(textsurname);
 let textcolor = prompt("color");
 console.log(textcolor);
-const password = "textname" + "textsurname" + "textcolor" + "#24";
+const password = textname + textsurname + textcolor + "#24";
 document.getElementById("password").innerHTML = `la tua password è: ${password}`;
