@@ -1,9 +1,9 @@
 const numero = "#24";
-let nome = "name";
-let cognome = "surname";
-let colore = "color";
 let textname = prompt("name");
+console.log(textname);
 let textsurname = prompt("surname");
+console.log(textsurname);
 let textcolor = prompt("color");
-const password ="name"+"surname"+"color"+"#24";
+console.log(textcolor);
+const password = "textname" + "textsurname" + "textcolor" + "#24";
 document.getElementById("password").innerHTML = `la tua password è: ${password}`;
